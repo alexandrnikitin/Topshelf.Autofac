@@ -3,7 +3,8 @@ Topshelf.Autofac
 
 Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.
 
-Usage example:
+Example Usage
+-------------
 
     static void Main(string[] args)
     {
