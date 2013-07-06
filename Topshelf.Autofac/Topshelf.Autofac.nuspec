@@ -6,8 +6,8 @@
     <title>Topshelf.Autofac</title>
     <authors>Alexandr Nikitin</authors>
     <owners>qwesoftware</owners>
-    <licenseUrl>https://github.com/dtinteractive/Topshelf.Integrations/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://www.github.com/dtinteractive/Topshelf.Integrations/</projectUrl>
+    <licenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</description>
     <releaseNotes>Initial Release</releaseNotes>
