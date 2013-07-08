@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Autofac;
-
-using Topshelf.Autofac;
 
 namespace Topshelf.Autofac.Sample
 {
@@ -13,24 +7,25 @@ namespace Topshelf.Autofac.Sample
     {
         static void Main(string[] args)
         {
+            // Create your container
             var builder = new ContainerBuilder();
             builder.RegisterType<SampleDependency>().As<ISampleDependency>();
             builder.RegisterType<SampleService>();
-            
             var container = builder.Build();
 
             HostFactory.Run(c =>
             {
+                // Pass it to Topshelf
                 c.UseAutofacContainer(container);
 
                 c.Service<SampleService>(s =>
                 {
+                    // Let Topshelf use it
                     s.ConstructUsingAutofacContainer();
                     s.WhenStarted((service, control) => service.Start());
                     s.WhenStopped((service, control) => service.Stop());
                 });
             });
-
         }
 
         public class SampleService
