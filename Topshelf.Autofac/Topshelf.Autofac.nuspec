@@ -10,12 +10,12 @@
     <projectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</description>
-    <releaseNotes>Change .Net framework version to 4.0</releaseNotes>
-    <copyright>Copyright qwesoftware 2013</copyright>
+    <releaseNotes>Updated dependencies to use new versions</releaseNotes>
+    <copyright>© 2013 Alexandr Nikitin.  All rights reserved.</copyright>
     <tags>Topshelf Autofac</tags>
     <dependencies>
-      <dependency id="Autofac" version="2.6.3.862" />
-      <dependency id="TopShelf" version="3.1.1" />
+      <dependency id="Autofac" version="3.3.1" />
+      <dependency id="TopShelf" version="3.1.3" />
     </dependencies>
   </metadata>
 </package>
