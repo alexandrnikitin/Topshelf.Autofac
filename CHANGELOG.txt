@@ -1,3 +1,6 @@
+1.1.0 (2015-12-22)
+* [NEW] Updated to latest versions of dependencies. Thanks to Wiebe Tijsma. (#2)
+
 1.0.0 (2014-05-13)
 * [NEW] Updated to latest versions of dependencies. Thanks to Peter Mounce. (#1) 
 
