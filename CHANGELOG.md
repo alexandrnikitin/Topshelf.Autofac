@@ -1,6 +1,6 @@
 #### 2.0 (2016-04)
 
- [BREAKING CHANGE] Updated dependencies to Topshelf 4.0, Minimum .NET Framework 4.5.2
+ [BREAKING CHANGE] Updated dependencies to Topshelf 4.0, Minimum .NET Framework 4.5.2. Thanks to Jason Finch @jafin (#3)
 
 #### 1.1.0 (2015-12-22)
 
