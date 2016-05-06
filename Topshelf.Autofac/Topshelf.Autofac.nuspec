@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Topshelf.Autofac</id>
-    <version>1.1.0</version>
+    <version>2.0.0</version>
     <title>Topshelf.Autofac</title>
     <authors>Alexandr Nikitin</authors>
     <owners>qwesoftware</owners>
@@ -11,11 +11,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</description>
     <releaseNotes>Updated dependencies to use new versions</releaseNotes>
-    <copyright>© 2013 Alexandr Nikitin.  All rights reserved.</copyright>
+    <copyright>© 2016 Alexandr Nikitin.  All rights reserved.</copyright>
     <tags>Topshelf Autofac</tags>
     <dependencies>
       <dependency id="Autofac" version="[3.0.0,4.0.0)" />
-      <dependency id="TopShelf" version="[3.0.0,4.0.0)" />
+      <dependency id="TopShelf" version="[3.0.0,5.0.0)" />
     </dependencies>
   </metadata>
 </package>
