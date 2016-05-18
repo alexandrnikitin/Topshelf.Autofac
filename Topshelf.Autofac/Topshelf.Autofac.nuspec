@@ -5,13 +5,12 @@
     <version>2.0.1-beta</version>
     <title>Topshelf.Autofac</title>
     <authors>Alexandr Nikitin</authors>
-    <owners>qwesoftware</owners>
     <licenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</description>
     <releaseNotes>Updated dependencies to use new versions</releaseNotes>
-    <copyright>© 2016 Alexandr Nikitin.  All rights reserved.</copyright>
+    <copyright>© 2016 Alexandr Nikitin. All rights reserved.</copyright>
     <tags>Topshelf Autofac</tags>
     <dependencies>
       <dependency id="Autofac" version="[3.0.0,4.0.0)" />
