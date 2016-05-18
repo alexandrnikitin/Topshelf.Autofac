@@ -1,3 +1,7 @@
+#### 2.0.1 (2016-05)
+
+ [FIX] Updated Topshelf to 4.0.1 (strong naming version). Thanks to Peter Davis @petedavis (#4)
+
 #### 2.0 (2016-04)
 
  [BREAKING CHANGE] Updated dependencies to Topshelf 4.0, Minimum .NET Framework 4.5.2. Thanks to Jason Finch @jafin (#3)

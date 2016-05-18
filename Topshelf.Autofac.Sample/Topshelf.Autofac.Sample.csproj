@@ -52,6 +52,10 @@
       <HintPath>..\packages\Topshelf.4.0.1\lib\net452\Topshelf.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Topshelf.Autofac, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Topshelf.Autofac.2.0.1\lib\net452\Topshelf.Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -60,12 +64,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Topshelf.Autofac\Topshelf.Autofac.csproj">
-      <Project>{96145823-7447-42fe-81bc-9aada1c423b1}</Project>
-      <Name>Topshelf.Autofac</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
