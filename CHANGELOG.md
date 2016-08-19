@@ -1,3 +1,7 @@
+#### 2.1.0 (2016-08-19)
+
+ [NEW] Support version 4.0.0 of Autofac. Thanks to Jan-Pieter Zoutewelle @janpieterz (#5)
+
 #### 2.0.1 (2016-05-18)
 
  [FIX] Updated Topshelf to 4.0.1 (strong naming version). Thanks to Peter Davis @petedavis (#4)
