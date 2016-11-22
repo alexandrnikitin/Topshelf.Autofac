@@ -1,3 +1,7 @@
+#### 3.1.0 (not released)
+
+ [FEATURE] Signed version of the package (#6)
+
 #### 3.0.0 (2016-08-19)
 
  [BREAKING CHANGE] Support version 4.0.0 of Autofac. Thanks to Jan-Pieter Zoutewelle @janpieterz (#5)
