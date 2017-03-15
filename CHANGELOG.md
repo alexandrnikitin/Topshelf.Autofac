@@ -1,3 +1,7 @@
+#### 3.1.1 (2017-03-15)
+
+ [FIX] TopShelf package capitalization typo in nuspec (#8)
+
 #### 3.1.0 (2016-11-22)
 
  [FEATURE] Signed version of the package (#6)

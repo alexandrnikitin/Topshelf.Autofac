@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Topshelf.Autofac</id>
-    <version>3.1.0</version>
+    <version>3.1.1</version>
     <title>Topshelf.Autofac</title>
     <authors>Alexandr Nikitin</authors>
     <licenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</licenseUrl>
