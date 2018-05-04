@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Topshelf.Autofac.snk</AssemblyOriginatorKeyFile>
     <DelaySign>true</DelaySign>
@@ -11,19 +11,17 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Alexandr Nikitin</Authors>
     <Company />
-    <Copyright>© 2018 Alexandr Nikitin. All rights reserved.</Copyright>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
-    <FileVersion>3.0.0.0</FileVersion>
     <Version>4.0.0-develop</Version>
     <PackageLicenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac&lt;/projectUrl</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/</PackageProjectUrl>
     <Description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</Description>
     <PackageReleaseNotes>Port to .NET Standard 2.0</PackageReleaseNotes>
     <PackageTags>Topshelf Autofac</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.8.0" />
+    <PackageReference Include="Autofac" Version="4.*" />
     <PackageReference Include="Topshelf" Version="4.1.0.117-develop" />
   </ItemGroup>
 
