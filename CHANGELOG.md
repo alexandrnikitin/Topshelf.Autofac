@@ -1,3 +1,7 @@
+#### 4.0.0 (2018-05-04)
+
+ [FEATURE] Add .NET Standard 2.0 support. Thanks to @granstel (#11)
+
 #### 3.1.1 (2017-03-15)
 
  [FIX] TopShelf package capitalization typo in nuspec (#8)
