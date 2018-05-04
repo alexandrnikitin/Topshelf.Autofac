@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Autofac", "Topshelf.Autofac\Topshelf.Autofac.csproj", "{96145823-7447-42FE-81BC-9AADA1C423B1}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topshelf.Autofac", "Topshelf.Autofac\Topshelf.Autofac.csproj", "{96145823-7447-42FE-81BC-9AADA1C423B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57B4ED95-2177-4DDD-8E69-9CDE17211862}"
 	ProjectSection(SolutionItems) = preProject
@@ -29,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1344B404-E6C0-45DE-9B12-F26E506CF70F}
 	EndGlobalSection
 EndGlobal
