@@ -5,13 +5,6 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topshelf.Autofac", "Topshelf.Autofac\Topshelf.Autofac.csproj", "{96145823-7447-42FE-81BC-9AADA1C423B1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57B4ED95-2177-4DDD-8E69-9CDE17211862}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Autofac.Sample", "Topshelf.Autofac.Sample\Topshelf.Autofac.Sample.csproj", "{A4577A44-8780-4FF9-99EB-93B00181DEEA}"
 EndProject
 Global

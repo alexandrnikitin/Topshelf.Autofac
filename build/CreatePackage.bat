@@ -1,1 +1,0 @@
-msbuild ..\Topshelf.Autofac\Topshelf.Autofac.csproj /t:BuildPackage /p:Configuration=Release /p:Platform=AnyCpu
