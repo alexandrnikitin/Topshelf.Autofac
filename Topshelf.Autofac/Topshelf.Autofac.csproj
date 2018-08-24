@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.*" />
-    <PackageReference Include="Topshelf" Version="4.1.0.117-develop" />
+    <PackageReference Include="Topshelf" Version="4.0.4.161-develop" />
   </ItemGroup>
 
   <ItemGroup>
