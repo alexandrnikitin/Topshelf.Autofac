@@ -12,7 +12,7 @@
     <Authors>Alexandr Nikitin</Authors>
     <Company />
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
-    <Version>4.0.0-develop</Version>
+    <Version>4.0.0</Version>
     <PackageLicenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/</PackageProjectUrl>
     <Description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</Description>
@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.*" />
-    <PackageReference Include="Topshelf" Version="4.0.4.161-develop" />
+    <PackageReference Include="Topshelf" Version="4.1.*" />
   </ItemGroup>
 
   <ItemGroup>
