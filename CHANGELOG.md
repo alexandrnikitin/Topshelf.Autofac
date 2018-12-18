@@ -1,6 +1,7 @@
-#### 4.0.0 (2018-05-04)
+#### 4.0.0 (2018-12-17)
 
  [FEATURE] Add .NET Standard 2.0 support. Thanks to @granstel (#11)
+ [BREAKING CHANGE] Update Topshelf to 4.1 version. Thanks to @luqq (#13)
 
 #### 3.1.1 (2017-03-15)
 

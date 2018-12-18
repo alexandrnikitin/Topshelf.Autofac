@@ -16,7 +16,7 @@
     <PackageLicenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/</PackageProjectUrl>
     <Description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</Description>
-    <PackageReleaseNotes>Port to .NET Standard 2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Update to Topshelf 4.1.*</PackageReleaseNotes>
     <PackageTags>Topshelf Autofac</PackageTags>
   </PropertyGroup>
 
