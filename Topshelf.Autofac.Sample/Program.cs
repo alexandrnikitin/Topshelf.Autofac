@@ -1,7 +1,9 @@
 ﻿using System;
 using Autofac;
+using Topshelf;
+using Topshelf.Autofac;
 
-namespace Topshelf.Autofac.Sample
+namespace SampleProgram
 {
     class Program
     {
