@@ -1,3 +1,7 @@
+#### 4.0.1 (2019-01-01)
+
+ [FIX] Remove delay signing of the assembly (#15)
+ 
 #### 4.0.0 (2018-12-17)
 
  [FEATURE] Add .NET Standard 2.0 support. Thanks to @granstel (#11)

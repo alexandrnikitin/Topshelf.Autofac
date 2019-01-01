@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
@@ -10,12 +10,12 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Alexandr Nikitin</Authors>
     <Company />
-    <AssemblyVersion>4.0.0.0</AssemblyVersion>
-    <Version>4.0.0</Version>
+    <AssemblyVersion>4.0.1</AssemblyVersion>
+    <Version>4.0.1</Version>
     <PackageLicenseUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/alexandrnikitin/Topshelf.Autofac/</PackageProjectUrl>
     <Description>Topshelf.Autofac provides extensions to construct your service class from your Autofac IoC container.</Description>
-    <PackageReleaseNotes>Update to Topshelf 4.1.*</PackageReleaseNotes>
+    <PackageReleaseNotes>Remove delay signing of the assembly</PackageReleaseNotes>
     <PackageTags>Topshelf Autofac</PackageTags>
   </PropertyGroup>
 
